@@ -1,0 +1,3 @@
+* Setup MySQL: `docker run --rm -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql:8.0.33`
+* Run the app to migrate schemas.
+* Once migrated, comment out schema creation query and run the app once again to profile the application.
